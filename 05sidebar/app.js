@@ -1,0 +1,10 @@
+
+// add/remove certain class in classlist to implement function
+
+const toggleBtn = document.querySelector(".sidebar-toggle");
+const closeBtn = document.querySelector(".close-btn");
+const sidebar = document.querySelector(".sidebar");
+
+toggleBtn.addEventListener("click", function(){
+  sidebar.classList.toggle("show-sidebar")
+})
